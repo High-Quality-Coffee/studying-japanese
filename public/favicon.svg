@@ -1,0 +1,7 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>語 일본어 개인 학습</title>
+  <rect width="240" height="240" rx="48" fill="#1d1d1f"/>
+  <circle cx="120" cy="120" r="106" fill="none" stroke="#fafaf5" stroke-width="2" opacity="0.9"/>
+  <circle cx="120" cy="120" r="96" fill="none" stroke="#c2c0b6" stroke-width="0.6" opacity="0.6"/>
+  <text x="120" y="120" font-family="'Noto Serif KR', 'Noto Serif SC', serif" font-size="160" font-weight="700" fill="#fafaf5" text-anchor="middle" dominant-baseline="central">語</text>
+</svg>
