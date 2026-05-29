@@ -14,8 +14,12 @@ const notoKr = Noto_Sans_KR({
   weight: ["300", "400", "500", "700"],
 });
 
+const baseUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "http://localhost:3000";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://studying-japanese.local"),
+  metadataBase: new URL(baseUrl),
   title: {
     default: "일본어 개인 학습",
     template: "%s · 일본어 개인 학습",
